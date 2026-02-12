@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Heart",
+    valentineName: "Kerrlyn Heart B. Gica",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -23,8 +23,8 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            yesBtn: "Yes!!",                                             // Text for "Yes" button
+            noBtn: "No >:(",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
@@ -35,7 +35,7 @@ const CONFIG = {
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            noBtn: "No."                                                 // Text for "No" button
         }
     },
 
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a virtual big warm hug and a huge kiss!",
+        message: "Now come get your gift, a virtual big warm hug and a huge kiss! Let's spend our valentines together virtually on Feb. 14, 2026!! I LOVE YOU SO MUCH, BABY!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -77,7 +77,7 @@ const CONFIG = {
     // Add your own music URL after getting proper licenses
     music: {
         enabled: true,                     // Music feature is enabled
-        autoplay: false,                    // Try to autoplay (note: some browsers may block this)
+        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dklzgbm8c/video/upload/v1770916997/My_Dear_Unplugged_Version_hov9pj.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
